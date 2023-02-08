@@ -1,5 +1,5 @@
 {
-  "name": "rakuten-books-client",
+  "name": "rakuten-books-api-wrapper",
   "version": "1.0.0",
   "description": "This NPM package simplifies access to the Rakuten Books API with a convenient wrapper.",
   "source": "src/index.ts",

@@ -10,7 +10,7 @@ Rakuten Books Client is an NPM package that wraps around the Rakuten Books API a
 
 To install Rakuten Books Client, simply run the following command in your terminal:
 
-```yarn add rakuten-books-client``` or ```npm install rakuten-books-client```
+```yarn add rakuten-books-api-wrapper``` or ```npm install rakuten-books-api-wrapper```
 
 ## Usage
 
@@ -19,7 +19,7 @@ To use Rakuten Books Client, simply import the package and create an instance of
 Here is an example of how to search for a book by ISBN:
 
 ```
-import RakutenBooksService from "rakuten-books-client";
+import RakutenBooksService from "rakuten-books-api-wrapper";
 
 const rakutenBooksService = new RakutenBooksService(<your-rakuten-books-api-application-id>);
 const book = await rakutenBooksService.searchByIsbn(<isbn>);
